@@ -1,0 +1,10 @@
+INSERT INTO Problem1 VALUES ('a',true,'een voertuig heeft één capaciteit'); 
+INSERT INTO Problem1 VALUES ('b',false,'een capaciteit kan bij meerdere voertuigen horen'); 
+INSERT INTO Problem1 VALUES ('c',false,'er kunnen meerdere pakketjes tegelijk worden afgeleverd'); 
+INSERT INTO Problem1 VALUES ('d',true,'een pakketje kan hooguit op één adres en met één factuur worden afgeleverd'); 
+INSERT INTO Problem1 VALUES ('e',true,'een pakketje is bestemd voor één iemand en heeft één prijs'); 
+INSERT INTO Problem1 VALUES ('f',true,'want een voertuig is gerechtigd aan een bezorger');
+INSERT INTO Problem1 VALUES ('g',true,'want een voertuig is gerechtigd aan een bezorger'); 
+INSERT INTO Problem1 VALUES ('h',true,'want een voertuig is gerechtigd aan een bezorger');
+INSERT INTO Problem1 VALUES ('i',true,'want een voertuig heeft één capaciteit'); 
+INSERT INTO Problem1 VALUES ('j',true,'want een voertuig heeft één capaciteit en een voertuig is gerechtigd aan een bezorger'); 
