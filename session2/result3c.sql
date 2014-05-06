@@ -1,13 +1,10 @@
 SELECT p.name From Person p
 WHERE EXISTS(
-SELECT * FROM Writes w
+SELECT * FROM Writes w, Movie m
 WHERE w.pid = p.pid
-AND EXISTS(
-SELECT * FROM Movie m
-WHERE m.mid = w.mid
+AND m.mid = w.mid
 AND NOT EXISTS (
 SELECT * FROM Directs d -- the movies exists and has no director
 WHERE d.mid = m.mid
-)
 )
 );
