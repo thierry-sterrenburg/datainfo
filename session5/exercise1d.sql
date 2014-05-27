@@ -1,0 +1,1 @@
+UPDATE BOEK SET isbn = '789' WHERE isbn = '123';

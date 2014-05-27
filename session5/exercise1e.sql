@@ -1,0 +1,1 @@
+DELETE FROM BOEK WHERE isbn = '789';
